@@ -24,7 +24,7 @@ function install_packages_if_missing
                 case omf
                     echo "Installing $package..."
                     mkdir -p .config/omf
-                    curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
+                    curl -L https://get.oh-my.fish | fish
                     omf init
                 case fisher
                     echo "Installing $package..."
@@ -230,7 +230,7 @@ function starship_transient_prompt_func
     starship module character
 end
 
-starship init fish | source
+# starship init fish | source
 
 
-enable_transience
+# enable_transience
