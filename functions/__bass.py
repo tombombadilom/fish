@@ -17,7 +17,7 @@ import sys
 import traceback
 
 
-BASH = '/usr/bin/bash'
+BASH = 'bash'
 
 FISH_READONLY = [
     'PWD', 'SHLVL', 'history', 'pipestatus', 'status', 'version',
