@@ -9,7 +9,7 @@ set -g theme_nerd_fonts yes
 set -g theme display_user yes
 set -g default_user tom
 
-starship_transient_prompt_func
+
 fish_add_path /opt/bin /usr/bin /usr/sbin /usr/local/bin /usr/local/sbin ~/.local/bin ~/.local/sbin
 
 
@@ -77,11 +77,11 @@ function cd
     check_directory_for_new_repository
 end
 
-function ls
-    eza --icons $argv
-end
+# function ls
+#     eza --icons $argv
+# end
 
-funcsave ls
+# funcsave ls
 function init-omf-plugins
     set -l omf_plugins agnoster default ocean technopagan ays edan pie bobthefish emoji-powerline sushi
 

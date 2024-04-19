@@ -26,8 +26,10 @@ function install_packages_if_missing
                     curl -sS https://starship.rs/install.sh | sh
                 case eza
                     echo "Installing $package..."
-                    yay -S eza
-
+                    yay -S eza 
+                case onfetch
+                    echo "Installing $package..."
+                    yay -S onefetch 
                 case '*'
                     echo "No installation instructions for $package"
             end
@@ -38,7 +40,7 @@ function install_packages_if_missing
 end
 
 # Set the applications to install
-set apps omf fisher eza-git starship
+set apps omf fisher eza-git starship onefetch
 
 # Call the function with the list of apps
 install_packages_if_missing $apps
