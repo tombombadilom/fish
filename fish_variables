@@ -48,7 +48,7 @@ SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
 SETUVAR fish_pager_color_selected_background:\x2dr
 SETUVAR fish_prompt_pwd_dir_length:0
 SETUVAR fish_user_paths:/usr/bin\x1e/usr/sbin\x1e/usr/local/bin\x1e/usr/local/sbin\x1e/home/tom/\x2elocal/sbin\x1e/home/tom/\x2edeno/bin\x1e/home/tom/\x2elocal/share/pnpm\x1e/home/tom/\x2elocal/bin\x1e/home/tom/\x2ebin\x1e/home/tom/Android/Sdk
-SETUVAR last_repository:/home/tom/\x2econfig/fish
+SETUVAR last_repository:/home/tom/\x2econfig/hypr
 SETUVAR tide_aws_bg_color:normal
 SETUVAR tide_aws_color:FF9900
 SETUVAR tide_aws_icon:\uf270
